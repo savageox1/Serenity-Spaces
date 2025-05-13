@@ -686,7 +686,7 @@ header .container {
 .video-card {
   height: 260px;
   border-radius: var(--radius-extra-large);
-  background: linear-gradient(0deg, #0000004D, #0000004D), url(/images/KARIMA-nuove-foto-Nov.10-8_e16def6f8819cff3c6e62a781f92f4fb.jpg);
+  background: linear-gradient(0deg, #0000004D, #0000004D), url(../images/h9.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
