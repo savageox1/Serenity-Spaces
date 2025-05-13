@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Serenity Spaces</title>
+    <!-- primary meta tags -->
+    <meta name="title" content="project" />
+    <meta name="description" content="this is test paragraph" />
+    <!-- fav icon  -->
+    <link rel="icon" type="image/png" href="" />
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <!-- google icon material -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css file -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  
+  <body>
+    <!--  header starts -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo"
+          ><img src="" alt="" /><img
+            src="/images/logo.png"
+            alt="Serenity Spaces"
+        /></a>
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li>
+              <a href="#" class="navbar-link label-meduim active">Home</a>
+            </li>
+            <li><a href="#rent" class="navbar-link label-meduim">Rent</a></li>
+            <li><a href="#sell" class="navbar-link label-meduim">Sell</a></li>
+            <li><a href="#buy" class="navbar-link label-meduim">Buy</a></li>
+            <li><a href="#about" class="navbar-link label-meduim">About</a></li>
+          </ul>
+          <div class="navbar-wrapper">
+            <a href="#" class="btn-link label-meduim">Login</a>
+            <a href="#" class="btn btn-fill label-meduim">Get Started</a>
+          </div>
+        </nav>
+        <button
+          class="nav-toggle-btn icon-btn"
+          aria-label="toggle navbar"
+          data-nav-toggler
+        >
+          <span class="material-symbols-outlined open" aria-hidden="true"
+            >menu</span
+          >
+          <span class="material-symbols-outlined close" aria-hidden="true"
+            >close</span
+          >
+        </button>
+      </div>
+    </header>
+    <!--  header ends -->
+    <!--  hero section starts -->
+    <main>
+      <article>
+        <section class="hero">
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="hero-title headline-large">
+                Discover Your Dream Home, Where Comfort Meets Style
+              </h1>
+              <p class="body-large hero-text">
+                Your perfect home is waiting for you. Let us help you discover a space that resonates with your dreams and aspirations.
+              </p>
+              <form action="./" method="get" class="search-bar">
+                <label class="search-item">
+                  <span class="label label-meduim">Want to</span>
+                  <select name="want-to" class="search-item-field body-meduim">
+                    <option value="buy" selected>Buy</option>
+                    <option value="sell">Sell</option>
+                    <option value="rent">Rent</option>
+                  </select>
+                  <span class="material-symbols-outlined" aria-hidden="true"
+                    >real_estate_agent</span
+                  >
+                </label>
+
+                <label class="search-item">
+                  <span class="label label-meduim">Property type</span>
+                  <select
+                    name="property-type"
+                    class="search-item-field body-meduim"
+                  >
+                    <option value="any" selected>Any</option>
+                    <option value="houses">Houses</option>
+                    <option value="apartments">Apartments</option>
+                    <option value="villa">Villa</option>
+                    <option value="townhome">Townhome</option>
+                    <option value="bungalow">Bungalow</option>
+                    <option value="loft">Loft</option>
+                  </select>
+                  <span class="material-symbols-outlined" aria-hidden="true"
+                    >gite</span
+                  >
+                </label>
+
+                <label class="search-item">
+                  <span class="label label-meduim">Location</span>
+                  <input
+                    type="text"
+                    name="loaction"
+                    placeholder="Street, City, Zip..."
+                    class="search-item-field body-meduim"
+                  />
+                  <span class="material-symbols-outlined" aria-hidden="true"
+                    >location_on</span
+                  >
+                </label>
+
+                <button type="submit" class="search-btn">
+                  <span class="material-symbols-outlined" aria-hidden="true"
+                    >search</span
+                  >
+                  <span class="label-meduim">Search</span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <!-- Property section statrs  -->
+        <section class="section property" aria-labelledby="property-label">
+          <div class="container">
+            <div class="title-wrapper">
+              <div>
+                <h2 class="section-title headline-small">
+                  Premium Properties in Khartoum
+                </h2>
+                <p class="section-text body-large">
+                  Explore our curated selection of luxury homes and apartments in prime locations across Khartoum, designed to meet your highest expectations.
+                </p>
+              </div>
+              <a href="" class="btn btn-outline">
+                <span class="label-meduim">Explore more</span>
+                <span class="material-symbols-outlined" aria-hidden="true"
+                  >arrow_outward</span
+                >
+              </a>
+            </div>
+            <div class="property-list">
+              <div class="card">
+                <div class="card-banner">
+                  <figure class="img-holder">
+                    <img
+                      src="/images/a15fcea56988f2dd4be61585cac595b8.jpg"
+                      alt=""
+                      class="img-cover"
+                    />
+                  </figure>
+                  <span class="badge label-meduim">New</span>
+                  <button
+                    class="icon-btn fav-btn"
+                    aria-label="add to favorite"
+                    data-toggle-btn
+                  >
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >favorite</span
+                    >
+                  </button>
+                </div>
+                <div class="card-content">
+                  <span class="title-meduim">$450,000</span>
+                  <h3>
+                    <a href="#" class="title-small card-title">Al-Riyadh Villa</a>
+                  </h3>
+                  <address class="body-meduim card-text">
+                    Al-Riyadh, Khartoum
+                  </address>
+                  <div class="card-meta-li">
+                    <div class="meta-item">
+                      <span
+                        class="material-symbols-outlined meta-icon"
+                        aria-hidden="true"
+                        >bed</span
+                      >
+                      <span class="meta-text label-meduim">4 bed</span>
+                    </div>
+                    <div class="meta-item">
+                      <span
+                        class="material-symbols-outlined meta-icon"
+                        aria-hidden="true"
+                        >bathtub</span
+                      >
+                      <span class="meta-text label-meduim">3 bath</span>
+                    </div>
+                    <div class="meta-item">
+                      <span
+                        class="material-symbols-outlined meta-icon"
+                        aria-hidden="true"
+                        >straighten</span
+                      >
+                      <span class="meta-text label-meduim">250 sqft</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-banner">
+                  <figure class="img-holder">
+                    <img
+                      src="/images/01000000-0aff-0242-415f-08db534c5929_cx0_cy6_cw0_w1200_r1.jpg"
+                      alt=""
+                      class="img-cover"
+                    />
+                  </figure>
+                  <span class="badge label-meduim">New</span>
+                  <button
+                    class="icon-btn fav-btn"
+                    aria-label="add to favorite"
+                    data-toggle-btn
+                  >
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >favorite</span
+                    >
+                  </button>
+                </div>
+                <div class="card-content">
+                  <span class="title-meduim">$380,000</span>
+                  <h3>
+                    <a href="#" class="title-small card-title">Al-Manshiya Apartment</a>
+                  </h3>
+                  <address class="body-meduim card-text">
+                    Al-Manshiya, Khartoum
+                  </address>
+                  <div class="card-meta-li">
+                    <div class="meta-item">
+                      <span
+                        class="material-symbols-outlined meta-icon"
+                        aria-hidden="true"
+                        >bed</span
+                      >
+                      <span class="meta-text label-meduim">3 bed</span>
+                    </div>
+                    <div class="meta-item">
+                      <span
+                        class="material-symbols-outlined meta-icon"
+                        aria-hidden="true"
+                        >bathtub</span
+                      >
+                      <span class="meta-text label-meduim">2 bath</span>
+                    </div>
+                    <div class="meta-item">
+                      <span
+                        class="material-symbols-outlined meta-icon"
+                        aria-hidden="true"
+                        >straighten</span
+                      >
+                      <span class="meta-text label-meduim">180 sqft</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-banner">
+                  <figure class="img-holder">
+                    <img
+                      src="/images/1000_F_219663518_0egS4b5SmE7XZTbmm31xwR8A9QQbwsom.jpg"
+                      alt=""
+                      class="img-cover"
+                    />
+                  </figure>
+                  <span class="badge label-meduim">New</span>
+                  <button
+                    class="icon-btn fav-btn"
+                    aria-label="add to favorite"
+                    data-toggle-btn
+                  >
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >favorite</span
+                    >
+                  </button>
+                </div>
+                <div class="card-content">
+                  <span class="title-meduim">$520,000</span>
+                  <h3>
+                    <a href="#" class="title-small card-title">Al-Sahafa Villa</a>
+                  </h3>
+                  <address class="body-meduim card-text">
+                    Al-Sahafa, Khartoum
+                  </address>
+                  <div class="card-meta-li">
+                    <div class="meta-item">
+                      <span
+                        class="material-symbols-outlined meta-icon"
+                        aria-hidden="true"
+                        >bed</span
+                      >
+                      <span class="meta-text label-meduim">5 bed</span>
+                    </div>
+                    <div class="meta-item">
+                      <span
+                        class="material-symbols-outlined meta-icon"
+                        aria-hidden="true"
+                        >bathtub</span
+                      >
+                      <span class="meta-text label-meduim">4 bath</span>
+                    </div>
+                    <div class="meta-item">
+                      <span
+                        class="material-symbols-outlined meta-icon"
+                        aria-hidden="true"
+                        >straighten</span
+                      >
+                      <span class="meta-text label-meduim">300 sqft</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-banner">
+                  <figure class="img-holder">
+                    <img
+                      src="/images/6978071092_eb7df87e84_b.jpg"
+                      alt=""
+                      class="img-cover"
+                    />
+                  </figure>
+                  <span class="badge label-meduim">New</span>
+                  <button
+                    class="icon-btn fav-btn"
+                    aria-label="add to favorite"
+                    data-toggle-btn
+                  >
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >favorite</span
+                    >
+                  </button>
+                </div>
+                <div class="card-content">
+                  <span class="title-meduim">$290,000</span>
+                  <h3>
+                    <a href="#" class="title-small card-title">Al-Amarat Apartment</a>
+                  </h3>
+                  <address class="body-meduim card-text">
+                    Al-Amarat, Khartoum
+                  </address>
+                  <div class="card-meta-li">
+                    <div class="meta-item">
+                      <span
+                        class="material-symbols-outlined meta-icon"
+                        aria-hidden="true"
+                        >bed</span
+                      >
+                      <span class="meta-text label-meduim">2 bed</span>
+                    </div>
+                    <div class="meta-item">
+                      <span
+                        class="material-symbols-outlined meta-icon"
+                        aria-hidden="true"
+                        >bathtub</span
+                      >
+                      <span class="meta-text label-meduim">2 bath</span>
+                    </div>
+                    <div class="meta-item">
+                      <span
+                        class="material-symbols-outlined meta-icon"
+                        aria-hidden="true"
+                        >straighten</span
+                      >
+                      <span class="meta-text label-meduim">120 sqft</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-banner">
+                  <figure class="img-holder">
+                    <img
+                      src="/images/7120c56b-89c6-4ca2-a78d-59877357f330.jpg"
+                      alt=""
+                      class="img-cover"
+                    />
+                  </figure>
+                  <span class="badge label-meduim">New</span>
+                  <button
+                    class="icon-btn fav-btn"
+                    aria-label="add to favorite"
+                    data-toggle-btn
+                  >
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >favorite</span
+                    >
+                  </button>
+                </div>
+                <div class="card-content">
+                  <span class="title-meduim">$420,000</span>
+                  <h3>
+                    <a href="#" class="title-small card-title">Al-Sajana Villa</a>
+                  </h3>
+                  <address class="body-meduim card-text">
+                    Al-Sajana, Khartoum
+                  </address>
+                  <div class="card-meta-li">
+                    <div class="meta-item">
+                      <span
+                        class="material-symbols-outlined meta-icon"
+                        aria-hidden="true"
+                        >bed</span
+                      >
+                      <span class="meta-text label-meduim">4 bed</span>
+                    </div>
+                    <div class="meta-item">
+                      <span
+                        class="material-symbols-outlined meta-icon"
+                        aria-hidden="true"
+                        >bathtub</span
+                      >
+                      <span class="meta-text label-meduim">3 bath</span>
+                    </div>
+                    <div class="meta-item">
+                      <span
+                        class="material-symbols-outlined meta-icon"
+                        aria-hidden="true"
+                        >straighten</span
+                      >
+                      <span class="meta-text label-meduim">220 sqft</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-banner">
+                  <figure class="img-holder">
+                    <img
+                      src="/images/Colonial_house_in_Khartoum_001.jpg"
+                      alt=""
+                      class="img-cover"
+                    />
+                  </figure>
+                  <span class="badge label-meduim">New</span>
+                  <button
+                    class="icon-btn fav-btn"
+                    aria-label="add to favorite"
+                    data-toggle-btn
+                  >
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >favorite</span
+                    >
+                  </button>
+                </div>
+                <div class="card-content">
+                  <span class="title-meduim">$350,000</span>
+                  <h3>
+                    <a href="#" class="title-small card-title">Al-Mogran Apartment</a>
+                  </h3>
+                  <address class="body-meduim card-text">
+                    Al-Mogran, Khartoum
+                  </address>
+                  <div class="card-meta-li">
+                    <div class="meta-item">
+                      <span
+                        class="material-symbols-outlined meta-icon"
+                        aria-hidden="true"
+                        >bed</span
+                      >
+                      <span class="meta-text label-meduim">3 bed</span>
+                    </div>
+                    <div class="meta-item">
+                      <span
+                        class="material-symbols-outlined meta-icon"
+                        aria-hidden="true"
+                        >bathtub</span
+                      >
+                      <span class="meta-text label-meduim">2 bath</span>
+                    </div>
+                    <div class="meta-item">
+                      <span
+                        class="material-symbols-outlined meta-icon"
+                        aria-hidden="true"
+                        >straighten</span
+                      >
+                      <span class="meta-text label-meduim">160 sqft</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Property section ends  -->
+        <!-- Featrue section starts  -->
+        <section class="section feature" aria-labelledby="feature-label">
+          <div class="container">
+            <figure class="feature-banner">
+              <img
+                src="/images/6978071092_eb7df87e84_b.jpg"
+                alt="feature banner"
+                class="img-cover"
+                loading="lazy"
+              />
+            </figure>
+            <div class="feature-content">
+              <h2 class="headline-medium" id="feature-label">
+                We Specialize In Quality Home Renovations
+              </h2>
+              <p class="body-large feature-text">
+                Our team of experts is committed to delivering exceptional renovation services that transform your house into a perfect home.
+              </p>
+              <ul class="feature-list">
+                <li class="feature-item">
+                  <span
+                    class="material-symbols-outlined feature-icon"
+                    aria-hidden="true"
+                    >check_circle
+                  </span>
+                  <span class="body-medium">Smart Home</span>
+                </li>
+                <li class="feature-item">
+                  <span
+                    class="material-symbols-outlined feature-icon"
+                    aria-hidden="true"
+                    >check_circle
+                  </span>
+                  <span class="body-medium">Beautiful Scene Around</span>
+                </li>
+                <li class="feature-item">
+                  <span
+                    class="material-symbols-outlined feature-icon"
+                    aria-hidden="true"
+                    >check_circle
+                  </span>
+                  <span class="body-medium">Exceptional lifestyle</span>
+                </li>
+                <li class="feature-item">
+                  <span
+                    class="material-symbols-outlined feature-icon"
+                    aria-hidden="true"
+                    >check_circle
+                  </span>
+                  <span class="body-medium">Complete 24/7 Security</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section
+          class="section feature feature-2"
+          aria-labelledby="feature-label-2"
+        >
+          <div class="container">
+            <figure class="feature-banner">
+              <img
+                src="/images/Colonial_house_in_Khartoum_001.jpg"
+                alt="feature banner"
+                class="img-cover"
+                loading="lazy"
+              />
+            </figure>
+            <div class="feature-content">
+              <h2 class="headline-medium" id="feature-label-2">
+                We Are Experts In Historic Home Renovations
+              </h2>
+              <p class="body-large feature-text">
+                Preserving the charm of historic architecture while incorporating modern amenities, we bring timeless elegance to your heritage property.
+              </p>
+              <ul class="feature-list">
+                <li class="feature-item">
+                  <span
+                    class="material-symbols-outlined feature-icon"
+                    aria-hidden="true"
+                    >check_circle
+                  </span>
+                  <span class="body-medium">Heritage Preservation</span>
+                </li>
+                <li class="feature-item">
+                  <span
+                    class="material-symbols-outlined feature-icon"
+                    aria-hidden="true"
+                    >check_circle
+                  </span>
+                  <span class="body-medium">Modern Comforts</span>
+                </li>
+                <li class="feature-item">
+                  <span
+                    class="material-symbols-outlined feature-icon"
+                    aria-hidden="true"
+                    >check_circle
+                  </span>
+                  <span class="body-medium">Architectural Integrity</span>
+                </li>
+                <li class="feature-item">
+                  <span
+                    class="material-symbols-outlined feature-icon"
+                    aria-hidden="true"
+                    >check_circle
+                  </span>
+                  <span class="body-medium">Custom Solutions</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <!-- Featrue section ends  -->
+        <!-- video section starts  -->
+        <section class="section video">
+          <div class="container">
+            <div class="video-card">
+              <button class="play-btn" aria-label="play video">
+                <span class="material-symbols-outlined" aria-hidden="true"
+                  >play_arrow
+                </span>
+              </button>
+            </div>
+          </div>
+        </section>
+        <!-- video section ends  -->
+        <!-- Story section starts  -->
+        <section class="section story">
+          <div class="container">
+            <div class="title-wrapper">
+              <div>
+                <p class="section-subtitle title-meduim">Our Customers</p>
+                <h2 class="section-title headline-medium">
+                  We Help 1000+ Family Find their True Home
+                </h2>
+                <ul class="avatar-list">
+                  <li class="avatar">
+                    <img
+                      src="/images/f1.jpg"
+                      alt=""
+                      class="img-cover"
+                      loading="lazy"
+                    />
+                  </li>
+                  <li class="avatar">
+                    <img
+                      src="/images/f2.jpg"
+                      alt=""
+                      class="img-cover"
+                      loading="lazy"
+                    />
+                  </li>
+                  <li class="avatar">
+                    <img
+                      src="/images/f3.jpg"
+                      alt=""
+                      class="img-cover"
+                      loading="lazy"
+                    />
+                  </li>
+                  <li class="avatar">
+                    <img
+                      src="/images/f4.jpg"
+                      alt=""
+                      class="img-cover"
+                      loading="lazy"
+                    />
+                    <div class="overlay-content">
+                      <span class="label-medium"> 99+ </span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn-outline">
+                <span class="label-medium">View All Stories</span>
+                <span class="material-symbols-outlined" aria-hidden="true"
+                  >arrow_outward
+                </span>
+              </a>
+            </div>
+            <ul class="story-list">
+              <li
+                class="story-card"
+                style="background-image: url('./images/f5.jpg')"
+              >
+                <a href="#" class="overlay-content">
+                  <div>
+                    <h3 class="title-small">Saaed Ali</h3>
+                    <div class="rating-wrapper">
+                      <span class="material-symbols-outlined" aria-hidden="true"
+                        >star</span
+                      >
+                      <span class="material-symbols-outlined" aria-hidden="true"
+                        >star</span
+                      >
+                      <span class="material-symbols-outlined" aria-hidden="true"
+                        >star</span
+                      >
+                      <span class="material-symbols-outlined" aria-hidden="true"
+                        >star</span
+                      >
+                      <span class="material-symbols-outlined" aria-hidden="true"
+                        >star</span
+                      >
+                      <data class="title-small rating-text" value="5">5.0</data>
+                    </div>
+                  </div>
+                  <figure class="card-avatar">
+                    <img
+                      src="images/user2.jpg"
+                      alt=""
+                      class="avatar-img"
+                      loading="lazy"
+                    />
+                  </figure>
+                </a>
+              </li>
+              <li
+                class="story-card"
+                style="background-image: url('./images/f6.jpg')"
+              >
+                <a href="#" class="overlay-content">
+                  <div>
+                    <h3 class="title-small">Ahmed Mohamed</h3>
+                    <div class="rating-wrapper">
+                      <span class="material-symbols-outlined" aria-hidden="true"
+                        >star</span
+                      >
+                      <span class="material-symbols-outlined" aria-hidden="true"
+                        >star</span
+                      >
+                      <span class="material-symbols-outlined" aria-hidden="true"
+                        >star</span
+                      >
+                      <span class="material-symbols-outlined" aria-hidden="true"
+                        >star</span
+                      >
+                      <span class="material-symbols-outlined" aria-hidden="true"
+                        >star</span
+                      >
+                      <data class="title-small rating-text" value="5">5.0</data>
+                    </div>
+                  </div>
+                  <figure class="card-avatar">
+                    <img
+                      src="images/user2.jpg"
+                      alt=""
+                      class="avatar-img"
+                      loading="lazy"
+                    />
+                  </figure>
+                </a>
+              </li>
+              <li
+                class="story-card"
+                style="background-image: url('./images/f4.jpg')"
+              >
+                <a href="#" class="overlay-content">
+                  <div>
+                    <h3 class="title-small">Tahani Ibrahim</h3>
+                    <div class="rating-wrapper">
+                      <span class="material-symbols-outlined" aria-hidden="true"
+                        >star</span
+                      >
+                      <span class="material-symbols-outlined" aria-hidden="true"
+                        >star</span
+                      >
+                      <span class="material-symbols-outlined" aria-hidden="true"
+                        >star</span
+                      >
+                      <span class="material-symbols-outlined" aria-hidden="true"
+                        >star</span
+                      >
+                      <span class="material-symbols-outlined" aria-hidden="true"
+                        >star</span
+                      >
+                      <data class="title-small rating-text" value="5">5.0</data>
+                    </div>
+                  </div>
+                  <figure class="card-avatar">
+                    <img
+                      src="images/user2.jpg"
+                      alt=""
+                      class="avatar-img"
+                      loading="lazy"
+                    />
+                  </figure>
+                </a>
+              </li>
+              <li
+                class="story-card"
+                style="background-image: url('./images/f3.jpg')"
+              >
+                <a href="#" class="overlay-content">
+                  <div>
+                    <h3 class="title-small">Nabeel Saad</h3>
+                    <div class="rating-wrapper">
+                      <span class="material-symbols-outlined" aria-hidden="true"
+                        >star</span
+                      >
+                      <span class="material-symbols-outlined" aria-hidden="true"
+                        >star</span
+                      >
+                      <span class="material-symbols-outlined" aria-hidden="true"
+                        >star</span
+                      >
+                      <span class="material-symbols-outlined" aria-hidden="true"
+                        >star</span
+                      >
+                      <span class="material-symbols-outlined" aria-hidden="true"
+                        >star</span
+                      >
+                      <data class="title-small rating-text" value="5">5.0</data>
+                    </div>
+                  </div>
+                  <figure class="card-avatar">
+                    <img
+                      src="images/user2.jpg"
+                      alt=""
+                      class="avatar-img"
+                      loading="lazy"
+                    />
+                  </figure>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- Story section ends  -->
+      </article>
+    </main>
+    <!--  hero section ends -->
+    <!--  Footer section -->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo"
+              ><img src="images/logo.png" alt="Serenity Spaces"
+            /></a>
+            <p class="body-medium footer-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum,
+              dolor!
+            </p>
+          </div>
+          <nav class="footer-nav" aria-labelledby="nav-label-1">
+            <p class="title-small footer-list-title" id="navl-label-1">
+              Quick link
+            </p>
+            <ul class="footer-list">
+              <li><a href="#" class="body-medium footer-link">Home</a></li>
+              <li><a href="#" class="body-medium footer-link">Buy</a></li>
+              <li><a href="#" class="body-medium footer-link">Sell</a></li>
+              <li><a href="#" class="body-medium footer-link">Rent</a></li>
+            </ul>
+          </nav>
+          <nav class="footer-nav" aria-labelledby="nav-label-2">
+            <p class="title-small footer-list-title" id="navl-label-2">
+              Support
+            </p>
+            <ul class="footer-list">
+              <li><a href="#" class="body-medium footer-link">About us</a></li>
+              <li>
+                <a href="#" class="body-medium footer-link">Contact us</a>
+              </li>
+              <li>
+                <a href="#" class="body-medium footer-link">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#" class="body-medium footer-link"
+                  >Terms & Conditions</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <nav class="footer-nav" aria-labelledby="nav-label-3">
+            <p class="title-small footer-list-title" id="navl-label-3">
+              Get in touch
+            </p>
+            <ul class="footer-list">
+              <li>
+                <a href="#" class="body-medium footer-link"
+                  >hello@Serenity-Spaces.com</a
+                >
+              </li>
+              <li>
+                <address class="body-medium address">
+                  Arkweet alblabel Rd. Khartoum, Sudan
+                </address>
+              </li>
+              <li>
+                <ul class="social-list">
+                  <li><i class="social-link fa-brands fa-facebook"></i></li>
+                  <li><i class="social-link fa-brands fa-instagram"></i></li>
+                  <li><i class="social-link fa-brands fa-telegram"></i></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="copyright body-meduim">
+            Created by <span>Mohamed Almontaser</span> | All Rights Reserved
+            <span>year</span> &copy;
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- js file -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
