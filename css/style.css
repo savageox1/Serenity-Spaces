@@ -413,13 +413,14 @@ header .container {
 
 .logo img {
   width: 190px;
+  height: auto;
 }
 
 /* hero section  */
 
 .hero {
   position: relative;
-  background-image: url("..//images/—Pngtree—modern luxury real estate mansion_15521512.jpg");
+  background-image: url("https://i.postimg.cc/HkDWkQgP/home.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: var(--neutral-90);
@@ -686,7 +687,7 @@ header .container {
 .video-card {
   height: 260px;
   border-radius: var(--radius-extra-large);
-  background: linear-gradient(0deg, #0000004D, #0000004D), url(../images/h9.jpg);
+  background: linear-gradient(0deg, #0000004D, #0000004D), url("https://i.postimg.cc/zGrLcmVB/h9.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
